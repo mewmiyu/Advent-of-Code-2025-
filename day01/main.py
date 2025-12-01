@@ -34,7 +34,7 @@ def elves_day_one_zero_crossings(current, input_numbers):
 
 if __name__ == '__main__':
     input_numbers = []
-    with open("input_numbers.txt") as file:
+    with open("input.txt") as file:
         for line in file:
             input_numbers.append(line)
 
